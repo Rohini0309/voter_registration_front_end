@@ -1,0 +1,279 @@
+.header{
+background-color: #2a2b2b;
+}
+.head1{
+	margin-top: -7px;
+  margin-bottom: 195px;
+  margin-bottom: 195px;
+  margin-right: 1350px;
+  margin-left: 5px;
+  border: 1px solid #2a2b2b;
+  background-color: #2a2b2b;
+  color: #f0f8ff;
+  }
+.hindi1{
+	margin-top: -270px;
+  margin-bottom: 200px;
+  margin-right: 900px;
+  margin-left: 200px;
+  border: 1px solid #2a2b2b;
+  background-color: #2a2b2b;
+  color:#f0f6fb;
+  
+}
+.hindi2{
+	margin-top: -200px;
+  margin-bottom: 200px;
+  margin-right: 1100px;
+  margin-left: 230px;
+  border: 1px solid #2a2b2b;
+  background-color: black;
+  background-color: #2a2b2b;
+  color: #f0f6fb;
+  
+}
+.eng1{
+	margin-top: -270px;
+  margin-bottom: 200px;
+  margin-right: 200px;
+  margin-left: 700px;
+  border: 1px solid #2a2b2b;
+  background-color: #2a2b2b;
+  color: #f0f6fb;
+}
+.eng2{
+	margin-top: -200px;
+  margin-bottom: 10px;
+  margin-right: 500px;
+  margin-left: 800px;
+  border: 1px solid #2a2b2b;;
+  background-color: #2a2b2b;
+  color: #f0f6fb;
+}
+.head3{
+	margin-top: -65px;
+  margin-bottom: 200px;
+  margin-right: 10px;
+  margin-left: 1400px;
+  border: 1px solid #2a2b2b;
+  background-color: #2a2b2b;
+  color: #f0f6fb;
+}
+.c1{
+	margin-top: -199px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 3px;
+  border: 1px solid #dcdcdc;
+ }
+ .b1{
+	margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 90%;
+  margin-left: 3%;
+  border: 1px solid white;
+}
+.b2{
+	margin-top: -32px;
+  margin-bottom: 10px;
+  margin-right: 85%;
+  margin-left: 10%;
+  border: 1px solid white;
+}
+.but{
+height: 20px;
+width: 70px;
+border: 1px solid #77ade7;
+color: white;
+background-color: 	#808080;
+
+}
+.but:hover{
+	background-color:#77ade7 ; 
+}
+.lang{
+	margin-top: -31px;
+  margin-bottom: 10px;
+  margin-right: 16%;
+  margin-left: 70%;
+  border: 1px white;
+  color: #34393d;
+  font-family:"Arial";
+  font-size: 12px;
+}
+.b4{
+	margin-top: -25px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 85%;
+  border: 1px white;
+}
+.selecting{
+	color: white;
+	height: 20px;
+    width: 110px;
+	background-color: 	#808080;
+}
+.star{
+	color: #ff0810;
+}
+.note{
+	padding-left: 80px;
+	color: #a82d2a;
+}
+.big{
+	margin-top: -15px;
+
+  margin-right: 10%;
+  margin-left: 9%;
+  border: 0.1px solid black;
+}
+.f1{
+margin-top: -9%px;
+margin-right: 80%;
+margin-left: 1%;
+border: 0.1px white;
+color: #212529;
+}
+.big1{
+	background-color: 	#c7c5c5;
+	margin-top: -9%px;
+margin-right: 1%;
+margin-left: 1%;
+border: 0.1px solid #c7c5c5;
+}
+.big{
+	background-color: #eeeeee;
+}
+.big2{
+	margin-top: -9%px;
+margin-right: 1%;
+margin-left: 1%;
+border: 0.1px solid #e0ab9d;
+background-color: 	#e0ab9d;
+	}
+	.f2{
+		font-size: 15px;
+		font-family: "arial";
+		color: #160a13;
+		margin-left: 1%;
+	}
+	.x{
+		color:#414344;
+		padding-left: 13px;
+		padding-top: 70px;
+	}
+	.x1{
+		color:#414344;
+		padding-left: 88px;
+	}
+	.x2{
+		width: 70px;
+		height: 25px;
+		padding-left: 8px;
+		background-color: #6c757d;
+		color: white;
+	}
+	.x3{
+		color:#414344;
+		padding-left: 90px;
+	}
+	
+	.padding-radio{
+		position:relative;
+		left:6rem;
+    color:#414344;
+	}
+  .n1{
+    padding-left: 100px;
+    border: white;
+  }
+  .m1{
+	  
+	  margin-left: 46%;
+	  margin-right: 20%;
+	  margin-top: -26px;
+}
+  .t1{
+	  color:#414344;
+  }
+ .m2{
+	  
+	  margin-left: 50%;
+	  margin-right: 20%;
+	  margin-top: -26px;
+}
+.m3{
+	  
+	  margin-left: 59%;
+	  margin-right: 20%;
+	  margin-top: -26px;
+}
+.o{
+color: grey;
+padding-left: 12px;
+}
+.link{
+padding-left: 110px;
+color: blue;
+}	
+.z1{
+	padding-left: 3px;
+	margin-left: 99px;
+	border: 1px solid #d8d8d8 ;
+	margin-right: 70%;
+}
+.n5{
+	
+	padding-top: -90px;
+    border: white;
+	margin-left: 40%;
+	margin-right: 10%;
+	margin-top: -26px;
+	
+	
+}
+.y1{
+		color:#414344;
+		padding-left: 100px;
+	}
+	.y2{
+		width: 70px;
+		height: 25px;
+		padding-left: 8px;
+		background-color: #6c757d;
+		color: white;
+	}
+	.q{
+		padding-left: 400px;
+		color: white;
+	}
+	.e{
+		background-color: #28a745;
+		color: white;
+	}
+	.bot{
+		margin-top: 1px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+  margin-right: 0%;
+  margin-left: 0%;
+  border: 1px solid #070707;
+  background-color: #070707;
+  color: #f0f8ff;
+	}
+	.whole{
+		margin-left: 0%;
+		margin-right:0%;
+		border: 1px solid black;
+		margin-top: 10px;
+	}.endd{
+		padding-left: 500px;
+		color: #808080;
+	}
+	 
+	
+	
+	
+
+

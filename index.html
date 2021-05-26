@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VOTER REGISTRATION</title>
+<link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+<div class="whole">
+<div class="header">
+<div class="head1">
+  <img src="flag.png" width="110" height="70">
+</div>
+<div class="head2">
+<h2 class="hindi1">राष्ट्रीय मतदान सेवा</h2>
+  <h2 class="hindi2" >डेमो पोर्टल</h2>
+  <h2 class="eng1">NATIONAL VOTERS' SERVICES</h2>
+  <h2 class="eng2" >DEMO  PORTAL  </h2>
+</div>
+<div class="head3">
+<img src="vote.png" width="90" height="70">
+</div>
+</div>
+<div class="center">
+<div class="c1">
+<div class="b1">
+<input type="button" class="but" value="A+" /> 
+</div>
+<div class="b2">
+<input type="button" class="but" value="A-" /> 
+</div>
+<div class="b3">
+<h5 class="lang">Select Language :</h5>
+</div>
+<div class="b4">
+<select id="language" name="language" class="selecting">
+    <option value="Hindi">Hindi</option>
+    <option value="English">English</option>
+</select>
+</div>
+</div>
+<h2 class="note">Note: Fields marked with asterisks ( <span style="color: red">*</span> ) are mandatory</h2>
+</div>
+<div class="big">
+<div class="big1">
+<div class="f1">
+<h5>Type 6<br>[See rule 13(1) and 26]</h5>
+</div>
+
+</div>
+<div class="big2">
+<div class="f2">
+<h3>Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other<br>constituency from any one constituency</h3>
+</div>
+</div>
+<br>
+<br>
+<label class="x">In service</label>
+<br>
+<br>
+<label class="x">Electoral Registration Officer,</label>
+<br>
+<br>
+<label for="state" class="x1">State <span style="color: #ff0810">*    </span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select>  
+	<label for="district" class="x1">District </label>
+  <select name="districts" class="x2" id="district">
+    <option value="Select">Select</option>
+    </select>
+	<br><br>
+  <label class="x3">Legislative Assembly / Parlimentary</label>
+    <select name="legs" class="x2" id="legs">
+        <option value="Select">Select</option>
+    </select>
+<br>
+  <label class="x3">constituency <span style="color: #ff0810">*    </span></label>
+<br><br>
+  <label class="x">I request that my name be included in electoral rolls for all the aforesaid areas.</label>
+<br>
+<br>
+    <div class="padding-radio">
+    	<input type="radio" class="-m radio-adjust"><label>First time voter</label><br>
+    	<input type="radio" class="-m radio-adjust"><label>Due to transfer from other meeting areas.</label><br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <label class="x">Below are specifications in support of my claim to be included in the electoral rolls.</label</label>
+    <br>
+    <br>
+    <div class="big2">
+<div class="f2">
+<h3>Mandatory specifications</h3>
+</div>
+</div>
+<br>
+<br>
+<form>
+<label for="name" class="n1">(A) Name<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m1">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+  <br>
+  <label for="name" class="n1">(B) Surname (if any)<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m2">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+  <br>
+  <label for="name" class="n1">(C) Name of the applicant's relative<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m3">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+  <br>
+  <label for="name" class="n1">Nickname of the applicant's relative<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m3">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+  <br>
+  <label for="name" class="n1">(D) Type of the relationship<span style="color: red">*</span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select> 
+<br>
+<br>
+<div class="padding-radio">
+<input type="radio" class="-m radio-adjust"><label>(E) Age [on January 1 of the current calender]<span style="color: red">*</span></label>
+<input type="text" id="fname" name="name" value="2019" class="t1" Required/>
+<select name="states" class="x2" id="states">
+    <option value="Select">Year</option>
+    </select> 
+	<select name="states" class="x2" id="states">
+    <option value="Select">Month</option>
+    </select> 
+</div>
+<br>
+<label class="n1">Or</label>
+<br>
+<br>
+<div class="padding-radio">
+<input type="radio" class="-m radio-adjust"><label>(F) Date of birth (in the form of day/ month/ year)</label>
+  <input type="date" id="birthday" name="birthday">
+ </div>
+ <label class="n1">(if known) <span style="color: red">*</span> </label>
+ <br>
+ <br>
+ <br>
+ <label for="name" class="n1">(G) Applicant's gender<span style="color: red">*</span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select>
+	<br>
+	<br>
+	<div class="big2">
+<div class="f2">
+<h3>(H) Current address, whose applicant is nominally resident</h3>
+</div>
+</div>
+<br>
+<br>
+<label for="name" class="n1">House no. <span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m1">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+<br>
+<label for="name" class="n1">Street / area / location<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m2">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>  
+  <br>
+  <label for="name" class="n1">City / Village:<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m1">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+  <br>
+  <label for="name" class="n1">Post Office:<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name" placeholder="             (In English)" class="t1" Required/>
+  <input type="text" id="fname" name="name" placeholder="            (In Regional)" class="t1"Required/>
+  <div class="m1">
+  <input type="image" src="button.png" alt="Submit" width="60" height="30">
+  </div>
+  <br>
+  <label for="name" class="n1">Pin Code<span style="color: red">*</span></label>
+  <input type="text" id="fname" name="name"  class="t1" Required/>
+  <br>
+  <br>
+  <label for="name" class="n1">State / Union Territory <span style="color: red">*</span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select>
+	<br>
+	<br>
+	<label for="name" class="n1">District<span style="color: red">*</span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select>
+	<br>
+	<br>
+	<label class="o">______________________________________________________________________________________________________________________________________________________</label><br><br><br>
+	<label for="name" class="n1">Family / Neighbour Epic No.</label>
+  <input type="text" id="fname" name="name"  class="t1" Required/>
+  <br><br>
+  <label class="o">______________________________________________________________________________________________________________________________________________________</label><br><br><br>
+  <div class="big2">
+<div class="f2">
+<h3>Optional specialties</h3>
+</div>
+</div>
+<br>
+
+<label class="n1">(T) Disability (if any)</label>
+<br>
+<br>
+<div class="n1">
+<label class = "checkbox-inline">
+               <input type = "checkbox" value = "">Visual impairment 
+            </label>
+            <label class = "checkbox-inline">
+               <input type="checkbox" value="">Speech and hearing impairment
+            </label>
+            <label class = "checkbox-inline">
+               <input type = "checkbox" value = "">Motion disabling
+            </label>
+			<label class = "checkbox-inline">
+               <input type = "checkbox" value = "">other
+            </label>
+			<input type="text" id="fname" name="name"  class="t1" Required/>
+			</div>
+			<br>
+			<label class="n1">(Th) Email ID (optional) </label>
+			<input type="text" id="fname" name="name"  class="t1" Required/>
+			<br>
+			<br>
+			<label class="n1">(D) mobile number (optional)   +91</label>
+			<input type="text" id="fname" name="name"  class="t1" Required/>
+			<br>
+			<br>
+			<div class="big2">
+<div class="f2">
+<h3>Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB) <a href class="link">     List of supported documents   </a></h3>
+</div>
+</div>
+<br>
+<br>
+<label for="name" class="n1">Your photo<span style="color: red">*</span></label>
+<br>
+<div class="z1">
+<input type="file" id="myFile" name="filename">
+</div>
+<label for="name" class="n1">Add proof<span style="color: red">*</span></label>
+<br>
+<div class="z1">
+<input type="file" id="myFile" name="filename">
+</div>
+<div class="n5">
+<label for="name" >Document type<span style="color: red">*</span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select>
+	</div>
+<label for="name" class="n1">Adress proof<span style="color: red">*</span></label>
+<br>
+<div class="z1">
+<input type="file" id="myFile" name="filename">
+</div>
+<div class="n5">
+<label for="name" >Document type<span style="color: red">*</span></label>
+  <select name="states" class="x2" id="states">
+    <option value="Select">Select</option>
+    </select>
+	</div>
+<br>
+<div class="big2">
+<div class="f2">
+<h3>Declaration</h3>
+</div>
+</div>
+<br>
+<br>
+<label class="x">I declare I declare that according to my best knowledge and belief</label>
+<br>
+<label class="x">I am a citizen of India and of my birth;</label>
+<br>
+<label class="n1">City / Village: </label>
+<input type="text" id="fname" name="name"  class="t1" Required/>
+<br>
+<br>
+<label for="state" class="y1">Select state <span style="color: #ff0810">*    </span></label>
+  <select name="states" class="y2" id="states">
+    <option value="Select">Select</option>
+    </select>  
+	<label for="district" class="y1">District <span style="color: #ff0810">*    </span></label>
+  <select name="districts" class="y2" id="district">
+    <option value="Select">Select</option>
+    </select>
+	<br>
+	<br>
+	<label for="birthday" class="n1">Date: <span style="color: #ff0810">*    </span></label>
+  <input type="date" id="birthday" name="birthday">
+	<br>
+	<label class="x">(ii) I am a nominally resident in the address given in the above (date, month, year) above;</label>
+	<br>
+	
+<br>
+<label class="x">I have not applied to include my name in the electoral roll for any other constituency;</label>
+<br>
+<br>
+<div class="padding-radio">
+    	<input type="radio" class="-m radio-adjust"><label>(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</label><br>
+    	<br>
+		<label >Or</label>
+		<br>
+		<br>
+		<input type="radio" class="-m radio-adjust"><label>My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned</label><br>
+	</div>	
+	<label class="x">below, and if so, then I request that it be removed from that electoral roll. Go.</label><br>
+	<br>
+	<br>
+	<label class="o">______________________________________________________________________________________________________________________________________________________</label><br><br><br>
+    
+	<label class="n1">Location <span style="color: #ff0810">*    </span></label>
+<input type="text" id="fname" name="name"  class="t1" Required/>
+<label class="n1">date</label>
+<input type="date" id="birthday" name="birthday">
+<br>
+<br>
+<label class="x">I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's</label><br>
+<label class="x">Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</label><br>
+<br>
+
+<label class="n1">Captcha</label>
+<img src="captcha.png" width="80" height="20">
+<input type="text" id="fname" name="name"  class="t1" Required/>
+<br>
+<br>
+<div class="q"> 
+ <button type="reset" class="e" value="Reset">Reset</button>
+<button type="submit" class="e" value="Submit">Submit</button>
+
+</div>
+</form>
+</div>
+<div class="bot">
+<label class="endd">Copyright © 2019 Suven Consultants and Technology Pvt. Ltd.</label>
+</div>
+</div>
+</body>
+</html>
